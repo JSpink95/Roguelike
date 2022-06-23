@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{ed9a8d01-62b5-4e95-b45d-67c829029374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asset">
+      <UniqueIdentifier>{08e3f70b-23d2-4606-b024-b2f4a185c6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\System">
+      <UniqueIdentifier>{8ba708c3-6a29-40d2-89a9-55bbca4a9396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{01bcc888-4be7-41cb-b75f-f2fe5a5bb6a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game\Components.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Entity.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sprite.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset\assets.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\game_meshes.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\System\ScriptSystem.cpp">
+      <Filter>Game\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\script_component.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset\AssetManager.cpp" />
+    <ClCompile Include="Render\SpriteRenderer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\DebugRenderer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SceneManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\TextRenderer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\Components.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Entity.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sprite.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCore.h" />
+    <ClInclude Include="Asset\assets.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\game_meshes.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\System.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\System\ScriptSystem.h">
+      <Filter>Game\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\physics_components.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\script_component.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset\AssetManager.h" />
+    <ClInclude Include="Render\SpriteRenderer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\DebugRenderer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SceneManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\QuadBatchRenderer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\TextRenderer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Game\script_component.inl">
+      <Filter>Game</Filter>
+    </None>
+    <None Include="AssetManager.inl" />
+    <None Include="Game\Entity.inl">
+      <Filter>Game</Filter>
+    </None>
+    <None Include="Render\QuadBatchRenderer.inl">
+      <Filter>Render</Filter>
+    </None>
+  </ItemGroup>
+</Project>

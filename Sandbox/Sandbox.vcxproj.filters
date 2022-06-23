@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main_roguelike.cpp" />
+    <ClCompile Include="Tile\TileGridRenderer.cpp">
+      <Filter>Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile\TileGrid.cpp">
+      <Filter>Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile\TileGridGameScene.cpp">
+      <Filter>Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SplashScreenScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameHubScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameEntity.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\PlayerController.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\PlayerInputHandler.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tile">
+      <UniqueIdentifier>{3f811a9a-3e10-466c-8a80-52f8f3be7a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{ff7f3bfc-b65a-4887-922b-42cfa8f48ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{95f7bd53-ea00-40de-8028-5e7bf691811b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{b2f02d66-838f-4db2-b72d-889dbcd9afbe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tile\TileGridRenderer.h">
+      <Filter>Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile\TileGrid.h">
+      <Filter>Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile\TileGridGameScene.h">
+      <Filter>Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SplashScreenScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameHubScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameEntity.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\PlayerController.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\PlayerInputHandler.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
