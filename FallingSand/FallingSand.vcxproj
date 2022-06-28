@@ -93,6 +93,10 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)Vendor\SDL2-2.0.16\lib\$(Platform)\SDL2.dll" "$(OutDir)"
+xcopy "$(SolutionDir)WD\" "$(OutDir)WD\" /E/H/C/I/Y</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -109,6 +113,10 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)Vendor\SDL2-2.0.16\lib\$(Platform)\SDL2.dll" "$(OutDir)"
+xcopy "$(SolutionDir)WD\" "$(OutDir)WD\" /E/H/C/I/Y</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -123,6 +131,10 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)Vendor\SDL2-2.0.16\lib\$(Platform)\SDL2.dll" "$(OutDir)"
+xcopy "$(SolutionDir)WD\" "$(OutDir)WD\" /E/H/C/I/Y</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -141,6 +153,10 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)Vendor\SDL2-2.0.16\lib\$(Platform)\SDL2.dll" "$(OutDir)"
+xcopy "$(SolutionDir)WD\" "$(OutDir)WD\" /E/H/C/I/Y</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ProjectReference Include="..\Engine\Core\Core.vcxproj">
