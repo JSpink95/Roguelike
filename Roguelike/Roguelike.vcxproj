@@ -95,7 +95,7 @@
     </Link>
     <PostBuildEvent>
       <Command>copy "$(SolutionDir)Vendor\SDL2-2.0.16\lib\$(Platform)\SDL2.dll" "$(OutDir)"
-xcopy "$(SolutionDir)WD\" "$(OutDir)WD\" /E/H/C/I/Y</Command>
+xcopy "$(SolutionDir)WD\" "$(OutDir)" /E/H/C/I/Y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -115,7 +115,7 @@ xcopy "$(SolutionDir)WD\" "$(OutDir)WD\" /E/H/C/I/Y</Command>
     </Link>
     <PostBuildEvent>
       <Command>copy "$(SolutionDir)Vendor\SDL2-2.0.16\lib\$(Platform)\SDL2.dll" "$(OutDir)"
-xcopy "$(SolutionDir)WD\" "$(OutDir)WD\" /E/H/C/I/Y</Command>
+xcopy "$(SolutionDir)WD\" "$(OutDir)" /E/H/C/I/Y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -135,7 +135,7 @@ xcopy "$(SolutionDir)WD\" "$(OutDir)WD\" /E/H/C/I/Y</Command>
     </Link>
     <PostBuildEvent>
       <Command>copy "$(SolutionDir)Vendor\SDL2-2.0.16\lib\$(Platform)\SDL2.dll" "$(OutDir)"
-xcopy "$(SolutionDir)WD\" "$(OutDir)WD\" /E/H/C/I/Y</Command>
+xcopy "$(SolutionDir)WD\" "$(OutDir)" /E/H/C/I/Y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -159,7 +159,7 @@ xcopy "$(SolutionDir)WD\" "$(OutDir)WD\" /E/H/C/I/Y</Command>
     </Link>
     <PostBuildEvent>
       <Command>copy "$(SolutionDir)Vendor\SDL2-2.0.16\lib\$(Platform)\SDL2.dll" "$(OutDir)"
-xcopy "$(SolutionDir)WD\" "$(OutDir)WD\" /E/H/C/I/Y</Command>
+xcopy "$(SolutionDir)WD\" "$(OutDir)" /E/H/C/I/Y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
